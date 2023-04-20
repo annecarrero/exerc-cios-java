@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<div>
+<head>
+    <link rel="stylesheet" href="tarefa.css">
+    <script src="tarefa.js"></script>
+    <meta charset="utf-8">
+<center>
+<h1>EXERCÍCIOS DE JAVA</h1>
+
+<body class="tudo">
+    
+        <br>
+    <!-- 1 tarefa do cubo -->
+<div class="annely">
+    <h2>CUBO</h2>
+
+            <label for="numero">Digite um número:</label>
+        <br>
+        <br>
+            <input type="numero" id="numero" name="numero">
+            <button type="button" class="botao" onclick="cubo()">Calcular cubo</button>
+      
+                <p id="resultado1"></p>    
+                <br>  
+       
+</div>
+<br>
+    <!-- 2 tarefa da temperatura -->
+<div class="annely">   
+    <h2>TEMPERATURA</h2>
+        
+        <label for="fahrenheit">Digite a temperatura em Fahrenheit:</label>
+        <br>
+        <br>
+        <input type="numero" id="fahrenheit" name="fahrenheit">
+        <button type="button" onclick="converter()" class="botao" >Converter para Celsius</button>
+      
+      <p id="resultado2"></p>
+      <br>
+</div>        
+<br>
+    <!-- 3 tarefa da área de um triângulo -->
+<div class="annely">
+    <h2>ÁREA DO TRIÂGULO</h2>    
+
+        <label for="base">Digite a base do triângulo:</label>
+        <br>
+        <input type="numero" id="base" name="base">
+        <br>
+        <br>
+        <label for="altura">Digite a altura do triângulo:</label>
+        <br>
+        <input type="numero" id="altura" name="altura">
+        <br>
+        <br>
+        <button onclick="calcularAreaTriangulo(base, altura)" class="botao">Calcular Área</button>
+      
+                <p id="resultado3"></p>
+                <br>
+</div>
+<br>
+    <!-- 4 tarefa da área e o perímetro de um círculo -->
+<div class="annely">      
+    <h2>ÁREA E PERÍMETRO DO CÍRCULO</h2>
+
+        <label for="raio">Digite o raio do círculo:</label>
+        <br>
+        <input type="numero" id="raio" name="raio">
+        <button onclick="calcularCirculo()" class="botao">Calcular Área e Perímetro</button>
+      
+      <p id="resultado4"></p>
+      <br>
+</div>
+<br>
+    <!-- 5 tarefa do 5% de desconto -->  
+<div class="annely">
+    <h2>DESCONTO</h2>
+ 
+    <label for="valor">Digite o valor do produto:</label>
+	<input type="numero" id="valor" name="valor">
+
+	<button onclick="calcularDesconto()" class="botao">Calcular desconto</button>
+
+	<p id="resultado"></p>
+    <br>
+</div>
+<br>
+
+    <!-- 7 combustível -->
+<div class="annely">
+    <h2>COMBUSTÍVEL</h2>
+    
+    <label for="dinheiro">Quanto dinheiro você tem?</label>
+    <input type="numero" id="dinheiro">
+    <button onclick="calcularCombustivel()" class="botao">Calcular</button>
+    <br>
+    <br>
+    <p>Com R$<span id="dinheiro-digitado"></span>, você pode comprar <span id="litros"></span> litros de combustível e andar <span id="km"></span> quilômetros.</p>
+    <br>
+</div>
+<br>
+<footer class="rodapé">
+    todos os direitos reservados@2023
+</footer>
+</div>
+</html>
+
+
+
+

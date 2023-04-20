@@ -1,0 +1,31 @@
+.botao {
+    background-color: #27274B;
+    color: rgb(255, 250, 250);
+    border:0px;
+    border-radius: 2px;
+    font-size: 16px;
+    
+    }
+    
+    .tudo{
+        background-color:#DCF4FE;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .numero {
+        position: right 40px;
+        font-size: 22px;
+    border:0px;
+    }
+
+    .annely {
+    width: 600px;
+    border: 5px solid #27274B; 
+    }
+
+    .rodapé{
+        background: #27274B;
+        padding: 20px;
+        font-size: 25px;
+        color: #fff;
+    }
